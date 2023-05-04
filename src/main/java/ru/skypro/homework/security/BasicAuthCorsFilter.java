@@ -1,4 +1,4 @@
-package ru.skypro.homework.controller;
+package ru.skypro.homework.security;
 
 
 import org.springframework.stereotype.Component;
@@ -13,6 +13,7 @@ import java.io.IOException;
 @Component
 public class BasicAuthCorsFilter extends OncePerRequestFilter {
 
+    @SuppressWarnings("NullableProblems")
     @Override
     protected void doFilterInternal(HttpServletRequest httpServletRequest,
                                     HttpServletResponse httpServletResponse,

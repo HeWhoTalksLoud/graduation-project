@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changesets/schema.sql
+  - include:
+      file: liquibase/changesets/demo_data.sql
+

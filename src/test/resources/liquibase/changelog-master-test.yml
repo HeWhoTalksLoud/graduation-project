@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changesets/schema-test.sql
+# Раскомментируйте строки ниже, чтобы наполнить тестовые таблицы
+# тестовыми данными
+#  - include:
+#      file: liquibase/changesets/demo_data-test.sql
+
